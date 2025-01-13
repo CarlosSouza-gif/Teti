@@ -1,0 +1,28 @@
+O que deve instalar?
+
+cria-se ambiente conda, 
+
+create conda -n <nome_do_ambiente> python=<versão_python>
+
+o recomendado seria a versão 3.10, pois é uma versão mais de boas como podemos dizer, 
+
+após criar o ambiente, vc precisa usar esse ambiente, para usar, seria:
+
+conda activate <nome_do_ambiente>
+
+após isso, vc está usando o ambiente criado, e o que seria esse ambiente? 
+    
+    seria um repositorio, onde vc guarda as importações de algumas bibliotecas de python,
+    onde vc chama utilizando no código o import
+
+após isso,
+
+digite pip install pandas, numpy<2.0 scikit-learn jupyter seaborn opencv-python
+
+tensorflow==2.10, cuda-toolkit==11.2 e cudnn==8.1
+
+tensorflow acima de 2.10, teria que instalar o wls e fazer procedimentos muito chatos, por isso que abaixo de 2.11 , seria de boas
+
+não há necessidade de tu baixar tensorflow 2.10 gpu ee cpu, pq é juntos
+
+após isso, começa a fazer a festa
